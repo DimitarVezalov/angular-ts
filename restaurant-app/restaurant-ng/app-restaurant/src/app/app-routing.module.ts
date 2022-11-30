@@ -4,9 +4,10 @@ import { ContactsComponent } from './pages/contacts/contacts.component';
 import { MainLayoutComponent } from './pages/main-layout/main-layout.component';
 
 const routes: Routes = [
-  {path: '', component: MainLayoutComponent, children: [
-    {path: 'contacts', component: ContactsComponent}
-  ]}
+  { path: "", component: MainLayoutComponent, children:
+    [{ path: "contacts", component: ContactsComponent }
+  ] },
+  
 ];
 
 @NgModule({

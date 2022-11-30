@@ -15,7 +15,7 @@
 
 .top-bar {
     width: 100%;
-    height: 68px;
+    height: 72px;
 
     background: linear-gradient(to right, $pink, $blue);
 
@@ -24,14 +24,52 @@
 
     justify-content: start;
     align-items: center;
+    
 
-    h1{
+    h1 {
         margin-left: 5px;
         font-size: 24px;
 
-        :hover{
-            cursor: pointer;
-        }
+
     }
 
+    :hover {
+        cursor: pointer;
+    }
+
+}
+
+.navbar-group {
+
+    a {
+
+        font-size: 22px;
+        color: rgb(70, 67, 67);
+        padding-left: 20px;
+    }
+}
+
+.navbar-group-auth {
+    justify-content: end;
+    align-items: center;
+
+    a {
+
+        font-size: 22px;
+        color: rgb(70, 67, 67);
+        padding-left: 20px;
+    }
+}
+
+
+
+ 
+
+
+
+
+img {
+    padding-top: 5px;
+    padding-left: 2px;
+    height: 62px;
 }
